@@ -1,12 +1,12 @@
-# Byte-compiled / optimized / DLL files
+# Python 字节码 / 优化产物 / DLL 文件
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# C 扩展
 *.so
 
-# Distribution / packaging
+# 分发 / 打包产物
 .Python
 build/
 develop-eggs/
@@ -28,16 +28,16 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  这些文件通常由 Python 脚本基于模板生成，
+#  在 PyInstaller 构建 exe 之前写入，用来注入日期或其他信息。
 *.manifest
 *.spec
 
-# Installer logs
+# 安装器日志
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# 单元测试 / 覆盖率报告
 htmlcov/
 .tox/
 .nox/
@@ -51,24 +51,24 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Translations
+# 翻译文件
 *.mo
 *.pot
 
-# Django stuff:
+# Django 相关
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
+# Flask 相关
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# Scrapy 相关
 .scrapy
 
-# Sphinx documentation
+# Sphinx 文档构建产物
 docs/_build/
 
 # PyBuilder
@@ -85,23 +85,22 @@ ipython_config.py
 .python-version
 
 # pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
+#   根据 pypa/pipenv#598，建议将 Pipfile.lock 纳入版本控制。
+#   但在协作场景下，如果依赖带有平台差异，或者依赖本身不支持跨平台，
+#   pipenv 可能会安装无法工作的依赖，或者漏装部分必需依赖。
 #Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+# PEP 582；例如 github.com/David-OConnor/pyflow 会使用它
 __pypackages__/
 
-# Celery stuff
+# Celery 相关
 celerybeat-schedule
 celerybeat.pid
 
-# SageMath parsed files
+# SageMath 解析产物
 *.sage.py
 
-# Environments
+# 环境目录 / 环境文件
 .env
 .venv
 env/
@@ -110,14 +109,14 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
+# Spyder 项目配置
 .spyderproject
 .spyproject
 
-# Rope project settings
+# Rope 项目配置
 .ropeproject
 
-# mkdocs documentation
+# mkdocs 文档产物
 /site
 
 # mypy
@@ -125,10 +124,10 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-# Pyre type checker
+# Pyre 类型检查器
 .pyre/
 
-# output
+# 输出产物
 docs/api
 .code-workspace.code-workspace
 *.pkl
